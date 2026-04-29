@@ -2,7 +2,7 @@
 
 > **Team:** Heisenberg  
 > **Lead:** Abhiram A Bhat  
-> **Hackathon PS:** PS-23 
+> **Hackathon PS:** PS-23                  
 > **Tech Stack:** LLM · NLP · Speech Analysis · React
 
 ---
