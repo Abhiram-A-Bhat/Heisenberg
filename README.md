@@ -1,4 +1,4 @@
- AI Debate Coach & Argument Strength Analyzer
+ ## AI Debate Coach & Argument Strength Analyzer
 
 > **Team:** Heisenberg  
 > **Lead:** Abhiram A Bhat  
