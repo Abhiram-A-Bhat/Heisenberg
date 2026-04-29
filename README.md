@@ -1,4 +1,4 @@
-# 🎙️ ArgueIQ — AI Debate Coach & Argument Strength Analyzer
+ AI Debate Coach & Argument Strength Analyzer
 
 > **Team:** Heisenberg  
 > **Lead:** Abhiram A Bhat  
@@ -119,45 +119,6 @@ During live speech, the AI detects internal contradictions:
 
 ---
 
-## 🗂️ Project Structure (Planned)
 
-```
-arguiq/
-├── frontend/          # React app
-│   ├── components/
-│   │   ├── SpeechInput/
-│   │   ├── FallacyHeatmap/
-│   │   ├── ScoreDashboard/
-│   │   ├── BattleMode/
-│   │   └── DrillMode/
-│   └── pages/
-├── backend/           # API + LLM integration
-│   ├── speech/        # Speech-to-text + vocal analysis
-│   ├── analysis/      # Fallacy detection, scoring
-│   ├── debate/        # BP + MUN format logic
-│   └── export/        # PDF generation
-└── README.md
-```
-
----
-
-## 🚀 Getting Started
-
-```bash
-# Clone the repo
-git clone https://github.com/team-heisenberg/arguiq.git
-cd arguiq
-
-# Install frontend dependencies
-cd frontend && npm install
-
-# Install backend dependencies
-cd ../backend && pip install -r requirements.txt
-
-# Run the app
-npm run dev
-```
-
----
 
 *Built with 🧠 by Team Heisenberg for mind2i Hackathon — PS-23*
