@@ -44,7 +44,7 @@ A real-time AI-powered debate coach that listens to a speaker without interrupti
 
 ---
 
-## 🏆 Winning Features
+## ⚡ Advanced Features
 
 ### ⚔️ Battle Mode
 Two users debate each other — or one user debates the AI directly. The AI takes the opposing side and argues back in real time. Not just a static analyzer, but a live sparring partner.
@@ -117,7 +117,46 @@ During live speech, the AI detects internal contradictions:
 | Progress Dashboard | Session-over-session improvement tracking |
 | PDF Export | BP or MUN formatted debate report |
 
+---
 
+## 🗂️ Project Structure (Planned)
+
+```
+arguiq/
+├── frontend/          # React app
+│   ├── components/
+│   │   ├── SpeechInput/
+│   │   ├── FallacyHeatmap/
+│   │   ├── ScoreDashboard/
+│   │   ├── BattleMode/
+│   │   └── DrillMode/
+│   └── pages/
+├── backend/           # API + LLM integration
+│   ├── speech/        # Speech-to-text + vocal analysis
+│   ├── analysis/      # Fallacy detection, scoring
+│   ├── debate/        # BP + MUN format logic
+│   └── export/        # PDF generation
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/team-heisenberg/arguiq.git
+cd arguiq
+
+# Install frontend dependencies
+cd frontend && npm install
+
+# Install backend dependencies
+cd ../backend && pip install -r requirements.txt
+
+# Run the app
+npm run dev
+```
 
 ---
 
